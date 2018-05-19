@@ -1,0 +1,364 @@
+@font-face {
+    font-family:mangal;
+    src: url('font/MANGAL.ttf') format("ttf");
+}
+
+
+#top
+{
+	display: block;
+	width:100%;
+	background-image: url("../img/pattern.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	/*background-color:blue;*/
+}
+#top img
+{
+	width:100%;
+	margin-top:2px;
+}
+#top p{
+	margin-bottom:0;
+	text-align:center;
+	font-family: mangal;
+	font-size:18px;
+	font-weight:400;
+	color:#fff;
+}
+#top .title h3{
+	text-align:center;
+	font-family: mangal;
+	font-size:35px;
+	font-weight:400;
+	color:#fff;
+	margin-top:10px;
+}
+#top .title2 h4{
+	font-family: mangal;
+	font-size:28px;
+	font-weight:400;
+	color:#fff;
+	margin-top:10px;
+	margin-left:30%;
+}
+#top .cell a{
+	text-decoration:none;
+	color:#fff;
+	line-height:50px;
+}
+#top .cell a::before{
+	content: "\260E";
+	margin-right:10px;
+	font-size:25px;
+}
+@media screen and (max-width: 1199px) {
+	
+}
+@media screen and (max-width: 1030px){
+
+}
+@media screen and (max-width: 991px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:28px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:19px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:21px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+		margin-left:-40%;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 767px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:26px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:17px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:19px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+		margin-left:-40%;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 630px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:26px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:17px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:19px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+		margin-left:-40%;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width: 560px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:25px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:16px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:17px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 535px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:23px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:14px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:15px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 500px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:23px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:14px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:15px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		text-align: left;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 430px){
+	#top .title h3{
+		text-align:center;
+		font-family: mangal;
+		font-size:21px;
+		font-weight:400;
+		color:#fff;
+		margin-top:10px;
+	}
+	#top p{
+		margin-bottom:0;
+		text-align:center;
+		font-family: mangal;
+		font-size:12px;
+		font-weight:400;
+		color:#fff;
+	}
+	#top .title2 h4{
+		font-family: mangal;
+		font-size:13px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:1%;
+	}
+	#top .cell a{
+		text-decoration:none;
+		color:#fff;
+		line-height:0px;
+		margin-left:-10%;
+		text-align: left;
+	}
+	#top .cell a::before{
+		content: "\260E";
+		margin-right:10px;
+		font-size:15px;
+	}
+}
+
+@media screen and (max-width: 400px){
+#top .title h3{
+	text-align:center;
+	font-family: mangal;
+	font-size:19px;
+	font-weight:400;
+	color:#fff;
+	margin-top:10px;
+}
+#top p{
+	margin-bottom:0;
+	text-align:center;
+	font-family: mangal;
+	font-size:10px;
+	font-weight:400;
+	color:#fff;
+}
+#top .title2 h4{
+	font-family: mangal;
+	font-size:12px;
+	font-weight:400;
+	color:#fff;
+	margin-top:3px;
+	margin-left:1%;
+}
+#top .cell a{
+	text-decoration:none;
+	color:#fff;
+	line-height:0px;
+	margin-left:-10%;
+	text-align: left;
+}
+#top .cell a::before{
+	content: "\260E";
+	margin-right:10px;
+	font-size:15px;
+}
+}
