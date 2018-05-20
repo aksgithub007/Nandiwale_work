@@ -14,6 +14,9 @@
 	background-position: center;
 	/*background-color:blue;*/
 }
+#top1{
+	display:none;
+}
 #top img
 {
 	width:100%;
@@ -246,9 +249,24 @@ footer .address .add ul li {
 	font-weight:300;
 	color:#fff;
 }
-footer .address .add ul li::before{
-	content: "\f015";
-	margin-right:10px;
+footer .address .add ul .location::before{
+	font-family: FontAwesome;
+	content: "\f041";
+	margin-right:12px;
+	font-size:14px;
+}
+footer .address .add ul .mail::before{
+	font-family: FontAwesome;
+	content: "\f0ac";
+	margin-right:12px;
+	font-size:10px;
+	
+}
+footer .address .add ul .cell::before{
+	font-family: FontAwesome;
+	content: "\f10b";
+	margin-right:12px;
+	font-size:14px;
 	
 }
 footer .address .gal h3{
@@ -607,7 +625,20 @@ footer .powered_by p a:hover{
 	.navbar {
 		width:100%;
 	}
-	#top .title h3{
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
 		font-size:26px;
@@ -615,30 +646,31 @@ footer .powered_by p a:hover{
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
 		font-family: mangal;
 		font-size:17px;
 		font-weight:400;
 		color:#fff;
+		margin-bottom:6px;
 	}
-	#top .title2 h4{
+	#top1 .title2 h4{
 		font-family: mangal;
 		font-size:19px;
 		font-weight:400;
 		color:#fff;
 		margin-top:3px;
-		margin-left:1%;
+		margin-left:4%;
 	}
-	#top .cell a{
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		text-align: left;
-		margin-left:-40%;
+		margin-left:-50%;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -737,7 +769,20 @@ footer .address .gal h3{
 	.navbar {
 		width:100%;
 	}
-	#top .title h3{
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
 		font-size:26px;
@@ -745,30 +790,31 @@ footer .address .gal h3{
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
 		font-family: mangal;
 		font-size:17px;
 		font-weight:400;
 		color:#fff;
+		margin-bottom:6px;
 	}
-	#top .title2 h4{
+	#top1 .title2 h4{
 		font-family: mangal;
 		font-size:19px;
 		font-weight:400;
 		color:#fff;
 		margin-top:3px;
-		margin-left:1%;
+		margin-left:4%;
 	}
-	#top .cell a{
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		text-align: left;
-		margin-left:-40%;
+		margin-left:-70%;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -828,7 +874,20 @@ footer .address .gal h3{
 	.navbar {
 		width:100%;
 	}
-	#top .title h3{
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
 		font-size:25px;
@@ -836,30 +895,31 @@ footer .address .gal h3{
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
 		font-family: mangal;
 		font-size:16px;
 		font-weight:400;
 		color:#fff;
+		margin-bottom:5px;
 	}
-	#top .title2 h4{
+	#top1 .title2 h4{
 		font-family: mangal;
-		font-size:17px;
+		font-size:16px;
 		font-weight:400;
 		color:#fff;
 		margin-top:3px;
-		margin-left:6%;
+		margin-left:8%;
 	}
-	#top .cell a{
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		text-align: left;
 		margin-left:15px;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -917,37 +977,51 @@ footer .address .gal h3{
 	.navbar {
 		width:100%;
 	}
-	#top .title h3{
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
-		font-size:23px;
+		font-size:22px;
 		font-weight:400;
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
-		font-family: mangal;
-		font-size:14px;
-		font-weight:400;
-		color:#fff;
-	}
-	#top .title2 h4{
 		font-family: mangal;
 		font-size:15px;
 		font-weight:400;
 		color:#fff;
-		margin-top:3px;
-		margin-left:10%;
+		margin-bottom: 5px;
 	}
-	#top .cell a{
+	#top1 .title2 h4{
+		font-family: mangal;
+		font-size:14px;
+		font-weight:400;
+		color:#fff;
+		margin-top:3px;
+		margin-left:13%;
+	}
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		text-align: left;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -1005,7 +1079,20 @@ footer .address .gal h3{
 	.navbar {
 		width:100%;
 	}
-	#top .title h3{
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
 		font-size:23px;
@@ -1013,30 +1100,31 @@ footer .address .gal h3{
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
 		font-family: mangal;
 		font-size:14px;
 		font-weight:400;
 		color:#fff;
+		margin-bottom:5px;
 	}
-	#top .title2 h4{
+	#top1 .title2 h4{
 		font-family: mangal;
-		font-size:15px;
+		font-size:14px;
 		font-weight:400;
 		color:#fff;
 		margin-top:3px;
-		margin-left:1%;
+		margin-left:5%;
 	}
-	#top .cell a{
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		text-align: left;
 		margin-left:10px;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -1094,39 +1182,53 @@ footer .address .gal h3{
 	.navbar {
 		width:100%;
 	}
+	#top{
+		display:none;
+	}
+	#top1
+	{
+		display: block;
+		width:100%;
+		background-image: url("../img/pattern.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		/*background-color:blue;*/
+	}
 
-	#top .title h3{
+	#top1 .title h3{
 		text-align:center;
 		font-family: mangal;
-		font-size:21px;
+		font-size:20px;
 		font-weight:400;
 		color:#fff;
 		margin-top:10px;
 	}
-	#top p{
+	#top1 p{
 		margin-bottom:0;
 		text-align:center;
+		font-family: mangal;
+		font-size:14px;
+		font-weight:400;
+		color:#fff;
+		margin-bottom:4px;
+	}
+	#top1 .title2 h4{
 		font-family: mangal;
 		font-size:12px;
 		font-weight:400;
 		color:#fff;
-	}
-	#top .title2 h4{
-		font-family: mangal;
-		font-size:13px;
-		font-weight:400;
-		color:#fff;
 		margin-top:3px;
-		margin-left:1%;
+		margin-left:4%;
 	}
-	#top .cell a{
+	#top1 .cell a{
 		text-decoration:none;
 		color:#fff;
 		line-height:0px;
 		margin-left:-10%;
 		text-align: left;
 	}
-	#top .cell a::before{
+	#top1 .cell a::before{
 		content: "\260E";
 		margin-right:10px;
 		font-size:15px;
@@ -1167,39 +1269,52 @@ nav .navbar-brand img{
 .navbar {
 	width:100%;
 }
-
-#top .title h3{
+#top{
+	display:none;
+}
+#top1
+{
+	display: block;
+	width:100%;
+	background-image: url("../img/pattern.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	/*background-color:blue;*/
+}
+#top1 .title h3{
 	text-align:center;
 	font-family: mangal;
-	font-size:19px;
+	font-size:16px;
 	font-weight:400;
 	color:#fff;
 	margin-top:10px;
 }
-#top p{
+#top1 p{
 	margin-bottom:0;
 	text-align:center;
-	font-family: mangal;
-	font-size:10px;
-	font-weight:400;
-	color:#fff;
-}
-#top .title2 h4{
 	font-family: mangal;
 	font-size:12px;
 	font-weight:400;
 	color:#fff;
-	margin-top:3px;
-	margin-left:1%;
+	margin-bottom:3px;
 }
-#top .cell a{
+#top1 .title2 h4{
+	font-family: mangal;
+	font-size:11px;
+	font-weight:400;
+	color:#fff;
+	margin-top:3px;
+	margin-left:7%;
+}
+#top1 .cell a{
 	text-decoration:none;
 	color:#fff;
 	line-height:0px;
 	margin-left:-10%;
 	text-align: left;
 }
-#top .cell a::before{
+#top1 .cell a::before{
 	content: "\260E";
 	margin-right:10px;
 	font-size:15px;
