@@ -176,8 +176,184 @@ nav .navbar-brand img{
 
 /*banner end here*/
 
+/*About us section start here*/
+#about
+{
+	display:block;
+	width:100%;
+	background-color:#fff;
+	padding-top:25px;
+	padding-bottom:6%;
+}
+#about h2{
+	text-align:center;
+	font-size:35px;
+	font-weight:600;
+	color:#000;
+}
+#about hr{
+	width:50%;
+	height:2px;
+	border:0;
+	background-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0)
+    );
+    margin-bottom:20px;
+}
+#about .about_text
+{
+  width:100%;
+  display: block;
+}
+#about .about_text p{
+	text-align:left;
+	font-size:15px;
+	font-weight:400;
+	color:#000;
+}
+#about .about_text button{
+	border-radius:0;
+	-webkit-box-shadow: 0px 1px 2px #000;
+	-moz-box-shadow: 0px 1px 2px #000;
+	-o-box-shadow: 0px 1px 2px #000;
+	box-shadow: 0px 1px 2px #000;
+	transition: all 0.5s ease-in-out;
+	margin-top:15px;
+}
+#about .about_text button:hover{
+	margin-top:10px;
+}
+#about .about_img{
+	width:100%;
+	display: block;	
+}
+#about .abt_img{
+	width:200px;
+	height:200px;
+	background-image:url("../img/nandi2.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center;
+	margin-left:50%;
+	position:relative;
+	border:1px solid #000;
+}
+#about .abt_img .abt_img2{
+	width:200px;
+	height:200px;
+	background-image:url("../img/nandi3.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-position: center;
+	margin-left:-50%;
+	position: absolute;
+	bottom:-50%;
+	left:0;
+	border:1px solid #000;
+}
+/*About us section end here*/
 
-
+/*gallery section start here*/
+#gallery{
+	width:100%;
+	display:block;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-image:url("../img/gallery_pattern.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#gallery h2{
+		text-align:center;
+		font-size:35px;
+		font-weight:600;
+		color:#fff;
+}
+#gallery hr{
+		width:50%;
+		height:2px;
+		border:0;
+		background-image: linear-gradient(
+	    to right,
+	    rgba(255,255,255,0),
+	    rgba(255,255,255,0.5),
+	    rgba(255,255,255,0.5),
+	    rgba(255,255,255,0)
+	    );
+	    margin-bottom:20px;
+}
+.w3ls_gallery_grids{
+	padding-top:0em;
+}
+.agile_gallery_grid{
+	margin-bottom:2em;
+}
+.agile_gallery_grid1{
+    position: relative;
+}
+.w3layouts_gallery_grid1_pos{
+    background:#23609b;
+    bottom: 45px;
+    left: 45px;
+    opacity: 0;
+    padding:1em;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    top: 45px;
+    visibility: hidden;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+.w3layouts_gallery_grid1_pos h3{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 1em 0 .5em;
+    padding-bottom: .5em;
+    position: relative;
+    text-transform: uppercase;
+    color: #212121;
+}
+.w3layouts_gallery_grid1_pos p{
+	color: #fff;
+	line-height:2em;
+	letter-spacing:1px;
+}
+.agile_gallery_grid:hover .w3layouts_gallery_grid1_pos{
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+	-moz-transform: scaleX(1);
+	-o-transform: scaleX(1);
+	-ms-transform: scaleX(1);
+}
+.banner-bottom.gallery{
+	padding:5em 0;
+}
+p.quia {
+        font-size: 1.2em;
+    color: #140b05;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.agile_gallery_grid img {
+    width: 100%;
+}
+/*gallery section end here*/
 /*footer start here*/
 footer{
 	width:100%;
