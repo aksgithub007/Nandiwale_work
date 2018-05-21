@@ -709,6 +709,61 @@ footer .powered_by p a:hover{
 	}
 }
 @media screen and (max-width: 767px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:39%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 		footer .address .add ul li {
 			font-size:14px;
 			font-weight:300;
@@ -853,6 +908,61 @@ footer .powered_by p a:hover{
 	}
 }
 @media screen and (max-width: 630px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:39%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 	footer .address .add ul li {
 		font-size:14px;
 		font-weight:300;
@@ -998,6 +1108,61 @@ footer .address .gal h3{
 }
 
 @media screen and (max-width: 560px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:39%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:25%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:35%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 	footer .powered_by{
 		width:100%;
 		margin-top:4%;
@@ -1102,6 +1267,61 @@ footer .address .gal h3{
 	}
 }
 @media screen and (max-width: 535px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:39%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 	footer .powered_by{
 		width:100%;
 		margin-top:4%;
@@ -1204,6 +1424,61 @@ footer .address .gal h3{
 	}
 }
 @media screen and (max-width: 500px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:37%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 	footer .powered_by{
 		width:100%;
 		margin-top:4%;
@@ -1307,6 +1582,61 @@ footer .address .gal h3{
 	}
 }
 @media screen and (max-width: 430px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:37%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
+
 	footer .powered_by{
 		width:100%;
 		margin-top:4%;
@@ -1412,6 +1742,60 @@ footer .address .gal h3{
 }
 
 @media screen and (max-width: 400px){
+	#about .about_text p{
+		text-align:center;
+		font-size:15px;
+		font-weight:400;
+		color:#000;
+	}
+	#about .about_text button{
+		border-radius:0;
+		-webkit-box-shadow: 0px 1px 2px #000;
+		-moz-box-shadow: 0px 1px 2px #000;
+		-o-box-shadow: 0px 1px 2px #000;
+		box-shadow: 0px 1px 2px #000;
+		transition: all 0.5s ease-in-out;
+		margin-top:15px;
+		margin-left:37%;
+	}
+	#about
+	{
+		display:block;
+		width:100%;
+		background-color:#fff;
+		padding-top:25px;
+		padding-bottom:30%;
+	}
+
+	#about .about_img{
+		width:100%;
+		display: block;	
+		margin-top:10%;
+	}
+	#about .abt_img{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi2.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:30%;
+		position:relative;
+		border:1px solid #000;
+	}
+	#about .abt_img .abt_img2{
+		width:200px;
+		height:200px;
+		background-image:url("../img/nandi3.jpg");
+		background-repeat: no-repeat;
+		background-size:100%;
+		background-position: center;
+		margin-left:-35%;
+		position: absolute;
+		bottom:-50%;
+		left:0;
+		border:1px solid #000;
+	}	
 
 nav .navbar-brand img{
 	width:60%;
